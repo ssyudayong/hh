@@ -1,0 +1,15 @@
+some code for win32
+
+string helper -> hh/string.hpp
+
+iocp base -> hh::io::context
+
+mutex & lock_guard
+
+path
+
+tribool
+
+tick_count <- GetTickCount64
+
+error_t & error_code & exception

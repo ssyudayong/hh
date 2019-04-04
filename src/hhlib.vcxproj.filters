@@ -27,6 +27,15 @@
     <ClCompile Include="hh\string.cpp">
       <Filter>code</Filter>
     </ClCompile>
+    <ClCompile Include="hh\path.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\tick_count.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\tribool.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\hh\error_category.hpp">
@@ -42,6 +51,15 @@
       <Filter>header</Filter>
     </ClInclude>
     <ClInclude Include="..\include\hh\string.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\path.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\tick_count.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\tribool.hpp">
       <Filter>header</Filter>
     </ClInclude>
   </ItemGroup>

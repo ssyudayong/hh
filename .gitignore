@@ -1,6 +1,8 @@
-# dir
+# custom
 .vs
 *.vcxproj.user
+lib
+temp
 
 # Prerequisites
 *.d

@@ -149,6 +149,8 @@
   <ItemGroup>
     <ClCompile Include="hh\error_category.cpp" />
     <ClCompile Include="hh\error_code.cpp" />
+    <ClCompile Include="hh\io\context.cpp" />
+    <ClCompile Include="hh\io\serial_port.cpp" />
     <ClCompile Include="hh\mutex.cpp" />
     <ClCompile Include="hh\path.cpp" />
     <ClCompile Include="hh\string.cpp" />
@@ -159,11 +161,16 @@
     <ClInclude Include="..\include\hh\error_category.hpp" />
     <ClInclude Include="..\include\hh\error_code.hpp" />
     <ClInclude Include="..\include\hh\error_t.hpp" />
+    <ClInclude Include="..\include\hh\io\context.hpp" />
+    <ClInclude Include="..\include\hh\io\serial_port.hpp" />
     <ClInclude Include="..\include\hh\mutex.hpp" />
     <ClInclude Include="..\include\hh\path.hpp" />
     <ClInclude Include="..\include\hh\string.hpp" />
     <ClInclude Include="..\include\hh\tick_count.hpp" />
     <ClInclude Include="..\include\hh\tribool.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.gitignore" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

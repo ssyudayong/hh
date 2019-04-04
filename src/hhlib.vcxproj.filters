@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="code\io">
+      <UniqueIdentifier>{bf666a8a-5b1d-4a6c-b2ef-3c18264dd0cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\io">
+      <UniqueIdentifier>{33c8ef2b-566b-4b78-8396-ee139aa01dbd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hh\error_category.cpp">
@@ -35,6 +41,12 @@
     </ClCompile>
     <ClCompile Include="hh\tribool.cpp">
       <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\io\context.cpp">
+      <Filter>code\io</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\io\serial_port.cpp">
+      <Filter>code\io</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -62,5 +74,14 @@
     <ClInclude Include="..\include\hh\tribool.hpp">
       <Filter>header</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\hh\io\serial_port.hpp">
+      <Filter>header\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\io\context.hpp">
+      <Filter>header\io</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.gitignore" />
   </ItemGroup>
 </Project>

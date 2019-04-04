@@ -19,6 +19,30 @@
     <Filter Include="header\io">
       <UniqueIdentifier>{33c8ef2b-566b-4b78-8396-ee139aa01dbd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="code\algorithms">
+      <UniqueIdentifier>{1c556819-86ff-43e7-bc18-5187fb3c9991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\algorithms">
+      <UniqueIdentifier>{0835a519-e5d7-4f89-bce2-904978d9701c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\data">
+      <UniqueIdentifier>{154c6604-fea9-411b-b7bb-2d7867aab222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\data">
+      <UniqueIdentifier>{5c4fc3b4-8d83-4d16-bf84-9058132026a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\net">
+      <UniqueIdentifier>{d514a8f9-1172-4c5b-8f71-7dc30814d9c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\net">
+      <UniqueIdentifier>{2833dc91-e0e5-4676-8037-7ad9656c5b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\util">
+      <UniqueIdentifier>{60207ac6-fa90-462e-9d68-110f6dfeed93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\util">
+      <UniqueIdentifier>{c293fa0f-2acf-40f5-a4c5-1f53aa4688f3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hh\error_category.cpp">
@@ -47,6 +71,75 @@
     </ClCompile>
     <ClCompile Include="hh\io\serial_port.cpp">
       <Filter>code\io</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\console.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\datetime.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\debug.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\exception.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\initializer.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\locked_long.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\algorithms\pid.cpp">
+      <Filter>code\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\algorithms\rate.cpp">
+      <Filter>code\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\data\ini_document.cpp">
+      <Filter>code\data</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\net\environment.cpp">
+      <Filter>code\net</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\net\http_server.cpp">
+      <Filter>code\net</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\net\http_server_params.cpp">
+      <Filter>code\net</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\net\request.cpp">
+      <Filter>code\net</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\net\response.cpp">
+      <Filter>code\net</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\net\socket.cpp">
+      <Filter>code\net</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\net\socket_address.cpp">
+      <Filter>code\net</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\net\ssl_params.cpp">
+      <Filter>code\net</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\net\tcp_server.cpp">
+      <Filter>code\net</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\net\tcp_server_params.cpp">
+      <Filter>code\net</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\util\configuration.cpp">
+      <Filter>code\util</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\util\system_variables.cpp">
+      <Filter>code\util</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\util\win_utils.cpp">
+      <Filter>code\util</Filter>
+    </ClCompile>
+    <ClCompile Include="hh\net\net_exception.cpp">
+      <Filter>code\net</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -79,6 +172,81 @@
     </ClInclude>
     <ClInclude Include="..\include\hh\io\context.hpp">
       <Filter>header\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\console.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\datetime.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\debug.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\event.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\exception.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\initializer.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\locked_long.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\memory_pool.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\memory_pool.ipp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\message.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\algorithms\pid.hpp">
+      <Filter>header\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\algorithms\rate.hpp">
+      <Filter>header\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\data\ini_document.hpp">
+      <Filter>header\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\net\environment.hpp">
+      <Filter>header\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\net\exception.hpp">
+      <Filter>header\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\net\http_server.hpp">
+      <Filter>header\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\net\http_server_params.hpp">
+      <Filter>header\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\net\socket.hpp">
+      <Filter>header\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\net\socket_address.hpp">
+      <Filter>header\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\net\ssl_params.hpp">
+      <Filter>header\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\net\tcp_server.hpp">
+      <Filter>header\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\net\tcp_server_params.hpp">
+      <Filter>header\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\util\configuration.hpp">
+      <Filter>header\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\util\system_variables.hpp">
+      <Filter>header\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hh\util\win_utils.hpp">
+      <Filter>header\util</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

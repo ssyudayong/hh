@@ -147,27 +147,75 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="hh\algorithms\pid.cpp" />
+    <ClCompile Include="hh\algorithms\rate.cpp" />
+    <ClCompile Include="hh\console.cpp" />
+    <ClCompile Include="hh\data\ini_document.cpp" />
+    <ClCompile Include="hh\datetime.cpp" />
+    <ClCompile Include="hh\debug.cpp" />
     <ClCompile Include="hh\error_category.cpp" />
     <ClCompile Include="hh\error_code.cpp" />
+    <ClCompile Include="hh\exception.cpp" />
+    <ClCompile Include="hh\initializer.cpp" />
     <ClCompile Include="hh\io\context.cpp" />
     <ClCompile Include="hh\io\serial_port.cpp" />
+    <ClCompile Include="hh\locked_long.cpp" />
     <ClCompile Include="hh\mutex.cpp" />
+    <ClCompile Include="hh\net\environment.cpp" />
+    <ClCompile Include="hh\net\net_exception.cpp" />
+    <ClCompile Include="hh\net\http_server.cpp" />
+    <ClCompile Include="hh\net\http_server_params.cpp" />
+    <ClCompile Include="hh\net\request.cpp" />
+    <ClCompile Include="hh\net\response.cpp" />
+    <ClCompile Include="hh\net\socket.cpp" />
+    <ClCompile Include="hh\net\socket_address.cpp" />
+    <ClCompile Include="hh\net\ssl_params.cpp" />
+    <ClCompile Include="hh\net\tcp_server.cpp" />
+    <ClCompile Include="hh\net\tcp_server_params.cpp" />
     <ClCompile Include="hh\path.cpp" />
     <ClCompile Include="hh\string.cpp" />
     <ClCompile Include="hh\tick_count.cpp" />
     <ClCompile Include="hh\tribool.cpp" />
+    <ClCompile Include="hh\util\configuration.cpp" />
+    <ClCompile Include="hh\util\system_variables.cpp" />
+    <ClCompile Include="hh\util\win_utils.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\include\hh\algorithms\pid.hpp" />
+    <ClInclude Include="..\include\hh\algorithms\rate.hpp" />
+    <ClInclude Include="..\include\hh\console.hpp" />
+    <ClInclude Include="..\include\hh\data\ini_document.hpp" />
+    <ClInclude Include="..\include\hh\datetime.hpp" />
+    <ClInclude Include="..\include\hh\debug.hpp" />
     <ClInclude Include="..\include\hh\error_category.hpp" />
     <ClInclude Include="..\include\hh\error_code.hpp" />
     <ClInclude Include="..\include\hh\error_t.hpp" />
+    <ClInclude Include="..\include\hh\event.hpp" />
+    <ClInclude Include="..\include\hh\exception.hpp" />
+    <ClInclude Include="..\include\hh\initializer.hpp" />
     <ClInclude Include="..\include\hh\io\context.hpp" />
     <ClInclude Include="..\include\hh\io\serial_port.hpp" />
+    <ClInclude Include="..\include\hh\locked_long.hpp" />
+    <ClInclude Include="..\include\hh\memory_pool.hpp" />
+    <ClInclude Include="..\include\hh\memory_pool.ipp" />
+    <ClInclude Include="..\include\hh\message.hpp" />
     <ClInclude Include="..\include\hh\mutex.hpp" />
+    <ClInclude Include="..\include\hh\net\environment.hpp" />
+    <ClInclude Include="..\include\hh\net\exception.hpp" />
+    <ClInclude Include="..\include\hh\net\http_server.hpp" />
+    <ClInclude Include="..\include\hh\net\http_server_params.hpp" />
+    <ClInclude Include="..\include\hh\net\socket.hpp" />
+    <ClInclude Include="..\include\hh\net\socket_address.hpp" />
+    <ClInclude Include="..\include\hh\net\ssl_params.hpp" />
+    <ClInclude Include="..\include\hh\net\tcp_server.hpp" />
+    <ClInclude Include="..\include\hh\net\tcp_server_params.hpp" />
     <ClInclude Include="..\include\hh\path.hpp" />
     <ClInclude Include="..\include\hh\string.hpp" />
     <ClInclude Include="..\include\hh\tick_count.hpp" />
     <ClInclude Include="..\include\hh\tribool.hpp" />
+    <ClInclude Include="..\include\hh\util\configuration.hpp" />
+    <ClInclude Include="..\include\hh\util\system_variables.hpp" />
+    <ClInclude Include="..\include\hh\util\win_utils.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.gitignore" />
